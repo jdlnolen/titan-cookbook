@@ -7,3 +7,4 @@
 #
 
 include_recipe "titan::webserver"
+include_recipe "titan::cassandra"
