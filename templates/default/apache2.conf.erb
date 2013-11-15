@@ -1,0 +1,8 @@
+# Managed by Chef for <%= node[:hostname] %>
+
+Alias /  <%= node[:titan][:document_root] %>/
+
+<Directory <%= node[:titan][:document_root] %>>
+	Options FollowSymLinks +Indexes
+	Allow from All
+</Directory>

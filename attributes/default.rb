@@ -1,0 +1,5 @@
+default[:titan][:user] = "titan"
+default[:titan][:group] = "titan"
+default[:titan][:name] = "titan"
+default[:titan][:config] = "titan.conf"
+default[:titan][:document_root] = "/srv/apache/titan"
